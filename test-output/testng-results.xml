@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19873" started-at="2020-12-11T17:05:15Z" finished-at="2020-12-11T17:05:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19873" started-at="2020-12-11T17:05:15Z" finished-at="2020-12-11T17:05:35Z">
+      <class name="Test.MainTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Test.MainTest@31610302]" name="initialize" is-config="true" duration-ms="10725" started-at="2020-12-11T17:05:15Z" finished-at="2020-12-11T17:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.MainTest@31610302]" name="Test" duration-ms="2564" started-at="2020-12-11T17:05:27Z" data-provider="thedata" finished-at="2020-12-11T17:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.MainTest@31610302]" name="Test1" duration-ms="1581" started-at="2020-12-11T17:05:29Z" data-provider="thedata" finished-at="2020-12-11T17:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Test.MainTest@31610302]" name="Test2" duration-ms="1446" started-at="2020-12-11T17:05:31Z" data-provider="thedata" finished-at="2020-12-11T17:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Test.MainTest@31610302]" name="Test3" duration-ms="1437" started-at="2020-12-11T17:05:32Z" data-provider="thedata" finished-at="2020-12-11T17:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Test.MainTest@31610302]" name="closeDriver" is-config="true" duration-ms="1164" started-at="2020-12-11T17:05:34Z" finished-at="2020-12-11T17:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Test.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Test.MainTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 147.202 sec <<< FAILURE!
+initialize(Test.MainTest)  Time elapsed: 127.825 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Browser.BrowserSetup.getUrl(BrowserSetup.java:83)
+	at WebPages.BaseUI.createWebDriver(BaseUI.java:30)
+	at Test.MainTest.initialize(MainTest.java:23)
+
